@@ -5,6 +5,7 @@ const localStorageData = JSON.parse(localStorage.getItem('myPomidoro'));
 
 if(!localStorageData){
     localStorage.setItem('myPomidoro', JSON.stringify([[],[]]))
+    localStorageData = JSON.parse(localStorage.getItem('myPomidoro'))
 } else {
   console.log('storage myPomidoro exists!')
 }
