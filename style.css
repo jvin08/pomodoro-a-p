@@ -175,19 +175,19 @@ a {
 }
         
 .minutes-arrow {
-  width: 15%;
-  top: 265px;
-  left: 256px;
+  width: 10%;
+  top: 215px;
+  left: 247px;
   transform-origin: 24% 48%;
-  rotate: -94deg;
+  rotate: 0deg;
   z-index: 2;
 }
 .seconds-arrow {
-  width: 18%;
-  top: 265px;
-  left: 251px;
+  width: 10%;
+  top: 200px;
+  left: 247px;
   transform-origin: 24% 48%;
-  rotate: -93deg;
+  rotate: 0deg;
   z-index: 2;
 }
 .faker-color {
