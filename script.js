@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
-const localStorageData = JSON.parse(localStorage.getItem('myPomidoro'));
+let localStorageData = JSON.parse(localStorage.getItem('myPomidoro'));
 
 if(!localStorageData){
     localStorage.setItem('myPomidoro', JSON.stringify([[],[]]))
